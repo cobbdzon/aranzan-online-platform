@@ -1,0 +1,49 @@
+@import "../styles/globalStyles.css";
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+  /* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.window-img {
+    filter: blur(1vh);
+    position: absolute;
+    margin-top: -1vh;
+    object-fit: cover;
+    object-position: 0% 35%;
+    height: 25%;
+    width: 100%;
+    z-index: -1;
+}
+
+.content-padding {
+    padding: 4vh;
+    margin-top: 8vh;
+}
+
+.textbox {
+    /* margin-top: 8vh; */
+    color: white;
+    font-size: 2.5vh;
+}
+
+.info-text {
+    margin-top: 8vh;
+    color: grey;
+    font-size: 2vh;
+    font-weight: 300;
+}
+
+.quote {
+    font-size: 4vh;
+    color: white;
+    margin: 8vh;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    text-shadow: 2px 2px 4px #000000;
+}

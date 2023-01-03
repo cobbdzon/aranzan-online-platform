@@ -1,0 +1,159 @@
+@import "../styles/globalStyles.css";
+
+body .bg-vid {
+    position: absolute;
+    
+    right: 0;
+    bottom: 0;
+
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;   
+    
+    z-index: -1;
+
+    -o-filter: blur(1vh);
+    filter: blur(1vh);
+}
+
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+    color: white;
+    text-align: center;
+    text-shadow: #00000010 0px 0px 16px;
+}
+
+.header .title {
+    font-size: 250%;
+}
+
+.header .quote {
+    font-size: large;
+}
+
+.header .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: url("../assets/Images/LogoTransparent.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    height: 300px;
+    width: 300px;
+    z-index: -4;
+}
+
+.header-container {
+    margin-top: 7.5vh;
+}
+
+.form-container {
+    max-width: 440px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+    height: 325px;
+    background: var(--lighter-primary);
+    border-radius: 5px;
+    box-shadow: #000000AF 4px 4px 64px 0px;
+    z-index: 0;
+}
+
+.wrapper .login-title {
+    line-height: 48px;
+    background: var(--secondary);
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*form*/
+.wrapper form {
+    padding: 30px 20px 25px 20px;
+}
+/*form inputs containers*/
+.wrapper form .row {
+    height: 45px;
+    background: var(--lighter-primary);
+    margin-bottom: 15px;
+    position: relative;
+}
+/*form inputs*/
+.wrapper form .row input {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px; 
+    border: 0px solid var(--lightest-primary);
+    box-shadow: #00000010 2px 2px 4px 0px;
+}
+/*form icons*/
+.wrapper form .row i {
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: white;
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid var(--lightest-primary);
+    border-radius: 5px 0 0 5px;
+}
+
+/*forgot password*/
+.wrapper form .forgot {
+    margin: -5px 0 10px 0;
+}
+
+.wrapper form .forgot a{
+    color: var(--accent);
+    font-size: 17px;
+    text-decoration: none;
+  }
+
+/*log in button*/
+.wrapper form .button input {
+    background: var(--accent);
+    padding-left: 0px;
+    color: white;
+    transition: 0.2s;
+}
+
+.wrapper form .button input:hover {
+    background: var(--accent);
+    padding-left: 0px;
+    color: white;
+    font-size: 17px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+/*sign up*/
+.wrapper form .sign-up {
+    color: white;
+}
+
+.wrapper form .sign-up a {
+    color: var(--accent);
+    text-decoration: none;      
+}

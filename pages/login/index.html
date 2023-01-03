@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log-In</title>
+        <link rel="stylesheet" href="../../styles/LoginStyles.css">
+        <link rel="stylesheet" href="../../styles/Topbar.css">
+        <link rel="icon" href="../../assets/Images/LogoTransparent.png">
+        <script src="../../scripts/fontawesome.js"></script>
+
+        <style>
+            .topbar {
+                background-color: #3b3b517f;
+            }
+        </style>
+    </head>
+    <body>
+        <video class="bg-vid" autoplay muted loop>
+            <source src="../../assets/AVP NSDAPS HYMN_Trim.mp4" type="video/mp4">
+        </video>
+
+        <!--TOPBAR-->
+        <div class="topbar">
+            <ul class="button-container">
+                <a class="button on-page" href="#">Log In</a>
+                <!--<a class="button login" href="Login.html">Log In</a>-->
+                <a class="button" href="../home/index.html">Home</a>
+                <a class="button" href="../about/index.html">About</a>
+            </ul>
+        </div>
+
+        <div class="header-container">
+            <div class="header">
+                <div class="logo"></div>
+                <span class="title">Aranzans Online Learning Achievements</span> <br>
+                <span class="quote">Designed for anyone, anywhere. Better learning starts here! </span>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <!--LOGIN PANEL-->
+            <div class="wrapper">
+                <div class="login-title"><span>Login</span></div>
+                <form action="../home/index.html">
+                    <!--EMAIL-->
+                    <div class="row">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Email" required>
+                    </div>
+                    <!--PASSWORD-->
+                    <div class="row">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="forgot"><a href="#">Forgot password?</a></div>
+                    <!--LOGIN-->
+                    <div class="row button">
+                        <input type="submit" value="Log In">
+                    </div>
+                    <div class="sign-up">Not a member? <a href="../signup/index.html">Sign up now!</a></div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

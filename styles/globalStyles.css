@@ -1,0 +1,23 @@
+@font-face {font-family: Emblem; src: url("../assets/Fonts/emblemregular.ttf")}
+@font-face {font-family: Nunito; src: url("../assets/Fonts/Nunito-VariableFont_wght.ttf")}
+@font-face {font-family: 'Ubuntu Regular'; src: url("../assets/Fonts/Ubuntu-Regular.ttf")}
+@font-face {font-family: 'Gotham Bold'; src: url("../assets/Fonts/Gotham-Bold.ttf")}
+
+:root {
+    --primary: #282837;
+    --lighter-primary: #3b3b51;
+    --lightest-primary: rgb(69, 69, 91);
+    --secondary: #2e89ff;
+    --accent: #ffb04f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu Regular', Nunito;
+}
+
+body {
+    background-color: var(--primary);
+}

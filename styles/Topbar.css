@@ -1,0 +1,57 @@
+@import url("../styles/globalStyles.css");
+
+.topbar {
+    position: absolute;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+
+    background-color: var(--lightest-primary);
+    color: var(--lightest-primary);
+    font-family: Nunito;
+    font-size: 3vh;
+    font-weight: 400;
+    min-height: 7.5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}   
+
+.topbar .button-container .button {
+    color: white;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    transition: 0.1s;
+}
+
+/* .topbar .button-container .button::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: var(--accent);
+    transition: 0.1s;
+} */
+
+.topbar .button-container .button:hover {
+    color: var(--secondary);
+    transition: 0.1s;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+/* .topbar .button-container .button:hover::after {
+    width: 100%;
+    transition: 0.1s;
+} */
+
+.topbar .button-container .button.disabled {
+    color: var(--primary);
+}
+
+.topbar .button-container .button.on-page {
+    color: var(--accent) !important;
+    text-shadow: 1px 1px 2px #0000001F;
+}

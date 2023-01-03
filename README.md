@@ -1,6 +1,4 @@
 # ICT 9 Performance Task
-This repository is only a container for the link to the website.
-The source code for the website is private.
 
 Features:
 - Responsive Design

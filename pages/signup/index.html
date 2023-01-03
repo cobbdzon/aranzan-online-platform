@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-Up</title>
+        <link rel="stylesheet" href="../../styles/SignUpStyles.css">
+        <link rel="stylesheet" href="../../styles/Topbar.css">
+        <link rel="icon" href="../../assets/Images/LogoTransparent.png">
+        <script src="../../scripts/fontawesome.js"></script>
+
+        <style>
+            .topbar {
+                background-color: #3b3b517f;
+            }
+        </style>
+    </head>
+    <body>
+        <video class="bg-vid" autoplay muted loop>
+            <source src="../../assets/AVP NSDAPS HYMN_Trim.mp4" type="video/mp4">
+        </video>
+
+        <!--TOPBAR-->
+        <div class="topbar">
+            <ul class="button-container">
+                <a class="button on-page" href="#">Log In</a>
+                <!--<a class="button login" href="Login.html">Log In</a>-->
+                <a class="button" href="../home/index.html">Home</a>
+                <a class="button" href="../about/index.html">About</a>
+            </ul>
+        </div>
+
+        <div class="form-container">
+            <!--LOGIN PANEL-->
+            <div class="wrapper">
+                <div class="signup-title"><span>Sign-Up</span></div>
+                <form action="../login/index.html">
+                     <!--USERNAME-->
+                     <div class="row">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" required>
+                    </div>
+                    <!--EMAIL-->
+                    <div class="row">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Email" required>
+                    </div>
+                    <!--BIRTHDAY-->
+                    <div class="row">
+                        <i class="fas fa-calendar"></i>
+                        <input type="date" placeholder="Birthday" required>
+                    </div>
+                    <!--GENDER-->
+                    <div class="row">
+                        <i class="fas fa-venus-mars"></i>
+                        <select name="Gender" required>
+                            <option value="Gender" disabled selected>Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <!--PASSWORD-->
+                    <div class="row">
+                        <i class="fas fa-lock-open"></i>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <!--CONFIRM PASSWORD-->
+                    <div class="row">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Confirm Password" required>
+                    </div>
+                    <!--LOGIN-->
+                    <div class="row button">
+                        <input type="submit" value="Sign Up">
+                    </div>
+                    <div class="log-in">Already a member? <a href="../login/index.html">Log In!</a></div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

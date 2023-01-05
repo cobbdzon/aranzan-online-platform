@@ -1,4 +1,5 @@
 # ICT 9 Performance Task
+Simply for showcase, the website does not have any functionality.
 
 Features:
 - Responsive Design

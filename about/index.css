@@ -27,8 +27,18 @@ body {
     margin-top: 8vh;
 }
 
+.quote {
+    font-size: calc(3vw + 1vh);
+    color: white;
+    margin: 8vh;
+    margin-top: 4vh;
+    margin-bottom: 14vh;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    text-shadow: 2px 2px 4px #000000;
+}
+
 .textbox {
-    /* margin-top: 8vh; */
     color: white;
     font-size: 2.5vh;
 }
@@ -38,13 +48,4 @@ body {
     color: grey;
     font-size: 2vh;
     font-weight: 300;
-}
-
-.quote {
-    font-size: 4vh;
-    color: white;
-    margin: 8vh;
-    font-family: 'Times New Roman';
-    font-style: italic;
-    text-shadow: 2px 2px 4px #000000;
 }

@@ -1,4 +1,4 @@
-@import "../styles/globalStyles.css";
+@import "../css/globalStyles.css";  
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
@@ -11,9 +11,10 @@ body {
 }
 
 .window-img {
-    filter: blur(1vh);
+    filter: blur(0.45rem);
     position: absolute;
-    margin-top: -1vh;
+    margin-top: -4vh;
+    margin-left: -4vh;
     object-fit: cover;
     object-position: 0% 35%;
     height: 25%;

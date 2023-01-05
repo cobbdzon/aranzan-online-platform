@@ -1,4 +1,4 @@
-@import "../styles/globalStyles.css";
+@import "../css/globalStyles.css";
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
@@ -45,23 +45,23 @@ body {
 }
 
 .subjects .subject.math .bg-img {
-    background-image: url(../assets/MathBackground.jpg);
+    background-image: url(img/math.jpg);
 }
 
 .subjects .subject.english .bg-img {
-    background-image: url(../assets/EnglishBackground.jpg);
+    background-image: url(img/english.jpg);
 }
 
 .subjects .subject.filipino .bg-img {
-    background-image: url(../assets/FilipinoBackground.png);
+    background-image: url(img/filipino.png);
 }
 
 .subjects .subject.science .bg-img {
-    background-image: url(../assets/ScienceBackground.jpg);
+    background-image: url(img/science.jpg);
 }
 
 .subjects .subject.ap .bg-img {
-    background-image: url(../assets/AralingPanlipunanBackground.jpg);
+    background-image: url(img/ap.jpg);
 }
 
 

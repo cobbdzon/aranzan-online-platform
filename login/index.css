@@ -1,4 +1,4 @@
-@import "../styles/globalStyles.css";
+@import "../css/globalStyles.css";
 
 body .bg-vid {
     position: absolute;
@@ -17,12 +17,48 @@ body .bg-vid {
     filter: blur(1vh);
 }
 
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+    color: white;
+    text-align: center;
+    text-shadow: #00000010 0px 0px 16px;
+}
+
+.header .title {
+    font-size: 250%;
+}
+
+.header .quote {
+    font-size: large;
+}
+
+.header .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: url("../assets/Images/LogoTransparent.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    height: 300px;
+    width: 300px;
+    z-index: -4;
+}
+
+.header-container {
+    margin-top: 7.5vh;
+}
+
 .form-container {
     max-width: 440px;
     padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30vh;
 }
 
 .wrapper {
@@ -31,14 +67,14 @@ body .bg-vid {
     margin-right: auto;
 
     width: 100%;
-    height: 535px;
+    height: 325px;
     background: var(--lighter-primary);
     border-radius: 5px;
     box-shadow: #000000AF 4px 4px 64px 0px;
     z-index: 0;
 }
 
-.wrapper .signup-title {
+.wrapper .login-title {
     line-height: 48px;
     background: var(--secondary);
     padding-left: 20px;
@@ -59,7 +95,6 @@ body .bg-vid {
     margin-bottom: 15px;
     position: relative;
 }
-
 /*form inputs*/
 .wrapper form .row input {
     height: 100%;
@@ -68,18 +103,6 @@ body .bg-vid {
     outline: none;
     padding-left: 60px;
     border-radius: 5px; 
-    border: 0px solid var(--lightest-primary);
-    box-shadow: #00000010 2px 2px 4px 0px;
-}
-/*form dropdowns*/
-.wrapper form .row select {
-    height: 100%;
-    width: calc(100% - 47px);
-    margin-left: 47px;
-    font-size: 16px;
-    outline: none;
-    padding-left: 13px;
-    border-radius: 0px 5px 5px 0px;
     border: 0px solid var(--lightest-primary);
     box-shadow: #00000010 2px 2px 4px 0px;
 }
@@ -97,7 +120,18 @@ body .bg-vid {
     border-radius: 5px 0 0 5px;
 }
 
-/*sign up button*/
+/*forgot password*/
+.wrapper form .forgot {
+    margin: -5px 0 10px 0;
+}
+
+.wrapper form .forgot a{
+    color: var(--accent);
+    font-size: 17px;
+    text-decoration: none;
+  }
+
+/*log in button*/
 .wrapper form .button input {
     background: var(--accent);
     padding-left: 0px;
@@ -114,12 +148,12 @@ body .bg-vid {
     cursor: pointer;
 }
 
-/*log in*/
-.wrapper form .log-in {
+/*sign up*/
+.wrapper form .sign-up {
     color: white;
 }
 
-.wrapper form .log-in a {
+.wrapper form .sign-up a {
     color: var(--accent);
     text-decoration: none;      
 }
